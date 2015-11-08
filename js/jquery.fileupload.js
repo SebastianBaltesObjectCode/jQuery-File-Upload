@@ -14,7 +14,7 @@
 
 (function (factory) {
     'use strict';
-    if (typeof define === 'function' && define.amd) {
+    /*if (typeof define === 'function' && define.amd) {
         // Register as an anonymous AMD module:
         define([
             'jquery',
@@ -29,7 +29,10 @@
     } else {
         // Browser globals:
         factory(window.jQuery);
-    }
+    }*/
+    factory(
+        require('./vendor/jquery.ui.widget.js')
+    );
 }(function ($) {
     'use strict';
 
