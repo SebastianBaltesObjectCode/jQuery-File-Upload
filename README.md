@@ -1,5 +1,7 @@
 # jQuery File Upload Plugin
 
+SBA: Den Fork habe ich gemacht, weil webpack und flypack nicht gut mit dem kaputten Modul-Loader-Hack dieses Plugins klarkommen.
+
 ## Demo
 [Demo File Upload](https://blueimp.github.io/jQuery-File-Upload/)
 
