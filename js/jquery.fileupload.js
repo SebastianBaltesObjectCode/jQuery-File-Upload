@@ -31,6 +31,7 @@
         factory(window.jQuery);
     }*/
     factory(
+        require('jquery'),
         require('./vendor/jquery.ui.widget.js')
     );
 }(function ($) {
